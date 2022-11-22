@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_app" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/txv_titulo"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        ></TextView>
+    <!-- agregar nombre -->
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="@string/hnt_nombre"></EditText>
+    <!-- input para agregar el rut -->
+    <EditText
+        android:id="@+id/txt_rut"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="@string/hnt_rut"
+        android:inputType="textMultiLine"></EditText>
+    <!-- input para agregar una descripcion -->
+    <EditText
+        android:id="@+id/txt_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="@string/hnt_descripcion"
+        android:inputType="textMultiLine"
+        ></EditText>
+    <!--lista desplegable de laboratorios-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa un laboratorio"
+        android:id="@+id/txt_laboratorio"
+        android:inputType="textMultiLine"
+        ></EditText>
+
+
+    <Button
+        android:id="@+id/btn_grabar_incidente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:text="@string/btn_guardar"></Button>
+
+
+</LinearLayout>

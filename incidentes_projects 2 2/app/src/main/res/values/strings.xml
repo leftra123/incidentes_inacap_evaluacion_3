@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Incidentes App</string>
+    <string name="txv_titulo">Incidentes Inacap</string>
+    <string name="hnt_nombre">Ingresa tu nombre</string>
+    <string name="hnt_descripcion">Describe el incidente</string>
+    <string name="hnt_rut">xxxxxxxx-x</string>
+    <string name="spn_laboratorio">Selecciona Laboratorio</string>
+    <string name="btn_guardar">Grabar Incidente</string>
+    <string name="title_activity_incidentes_guardados">Incidentes Guardados</string>
+    <string-array name="laboratorios">
+        <item>LEICA | Laboratorio Experimental de Informática y Computación Aplicada</item>
+        <item>LNET | Laboratorio Networking CISCO</item>
+        <item>LTEL | Laboratorio de Telecomunicaciones</item>
+        <item>LINF | Laboratorio de Informática</item>
+        <item>C2 | Laboratorio de Computación Nº2</item>
+    </string-array>
+</resources>
